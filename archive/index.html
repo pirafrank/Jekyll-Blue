@@ -7,11 +7,12 @@ permalink: /archive/
 <h2>All articles</h2>
 
 {% for post in site.posts %}
-  <article class="post">
+  
 
     <!--
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     -->
+
     <div>
       <span class="date2">{{ post.date | date: "%B %e, %Y" }} > </span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </div>
@@ -22,6 +23,6 @@ permalink: /archive/
     </div>
 
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
-  </article>
+
 {% endfor %}
 
