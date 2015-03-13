@@ -4,20 +4,16 @@ title: Blog
 permalink: /blog/
 ---
 
-<h3>All articles</h3>
+<h2>All articles</h2>
 
 {% for post in site.posts %}
   <article class="post">
-
-    <div class="date">
-      {{ page.date | date: "%B %e, %Y" }}
-    </div>
 
     <!--
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     -->
     <div>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <span class="date2">{{ post.date | date: "%B %e, %Y" }} > </span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </div>
 
     <!--

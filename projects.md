@@ -6,6 +6,8 @@ permalink: /projects/
 
 <!-- trailing slash in permalink is needed -->
 
+## Projects
+
 Some information about my projects!
 
 ### [Project 1](http://google.com)

@@ -30,6 +30,10 @@ body {
   width: 100%;
 }
 
+.big_container {
+  min-height: 500px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -117,6 +121,11 @@ img {
 
 .date {
   font-style: italic;
+  color: $gray;
+}
+
+.date2 {
+  font-size: 14px;
   color: $gray;
 }
 
@@ -284,12 +293,19 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
+  //border-top: 1px solid #ddd;
+  //border-bottom: 1px solid #ddd;
+  //background-color: $lightGray;
+}
+
+.line-separator{
+  height:1px;
+  //background:#717171;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
 }
 
 footer {
+  font: 14px/1.2;
   padding: 20px 0;
   text-align: center;
 }
