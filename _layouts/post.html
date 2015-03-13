@@ -4,17 +4,24 @@ layout: default
 
 <article class="post">
   <h2>{{ page.title }}</h2>
+  Category: {{ page.categories }} <br>
+  { page.date | date: "%B %e, %Y" }}
+  <br>
 
+  <!--
   <div class="category">
     <em>Category: {{page.categories}}</em>
   </div>
+  -->
 
   <div class="entry">
     {{ content }}
   </div>
 
+  <!--
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    { page.date | date: "%B %e, %Y" }}
   </div>
+  -->
 
 </article>
