@@ -5,25 +5,29 @@ permalink: /blog/
 ---
 
 <div style="font-family: 'Merriweather', serif;">
-    <h2>All articles</h2>
+    
+  <h2>Latest from tumblr</h2>
 
-    {% for post in site.posts %}
-      
+  <h2></h2>
 
-        <!--
-        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-        -->
+  <h2>All articles</h2>
 
-        <p>
-            <span class="date">{{ post.date | date: "%B %e, %Y" }} > </span><span class="post-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
-        </p>
+  {% for post in site.posts %}
 
-        <!--
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
+    <p>
+        <span class="date">{{ post.date | date: "%B %e, %Y" }} > </span><span class="post-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+    </p>
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+    <!--
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    -->
 
-    {% endfor %}
+    <!--
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
+
+  {% endfor %}
 </div>
