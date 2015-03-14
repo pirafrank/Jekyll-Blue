@@ -77,12 +77,12 @@ p {
 
 a {
   //color: $blue;
-  color: #148;
+  color: #34a;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
     //color: $blue;
-    color: #148;
+    color: #34a;
   }
 }
 
@@ -171,12 +171,13 @@ img {
 //
 
 .wrapper-masthead {
+  background-color: #34a;
   margin-bottom: 50px;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  //border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -212,20 +213,26 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  //color: $darkGray;
+  color: #fff;
   cursor: pointer;
-  //font-family: $helveticaNeue;
-  font-family: 'Roboto', sans-serif;
-  //font-family: 'Dancing Script', cursive;
-  //font-family: 'Permanent Marker', cursive;
   font-weight: 400;
   font-size: 28px/4.8;
   //letter-spacing: 1px;
+
+  a {
+    color: #fff;
+  }
+
+  @include mobile {
+    font-size: 32px;
+  }
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  //color: $gray;
+  color: #fff;
   font-size: 16px;
   font-weight: 300;
 
@@ -250,15 +257,20 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    //color: $darkGray;
+    color: #fff;
     text-align: right;
     font-weight: 300;
     //letter-spacing: 1px;
+    &:hover, &:active {
+      //color: $blue;
+      color: #fff;
+    }
 
     @include mobile {
       margin: 0 10px;
       //color: $blue;
-      color: #148;
+      color: #fff;
     }
   }
 
@@ -350,9 +362,9 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  //border-top: 1px solid #ddd;
-  //border-bottom: 1px solid #ddd;
-  //background-color: $lightGray;
+  //border-top: 1px solid #ddd; // original ugly stuff
+  //border-bottom: 1px solid #ddd; // original ugly stuff
+  //background-color: $lightGray; // original ugly stuff
 }
 
 .line-separator{
