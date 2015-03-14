@@ -1,7 +1,7 @@
 ---
 ---
 
-//@import "variables";
+@import "variables";
 
 h1 {
   font-weight: normal;
@@ -43,6 +43,9 @@ h1 {
     &:hover, &:active {
       color: #fff;
     }
+  @include mobile {
+    text-align: center;
+  }
 }
 
 
