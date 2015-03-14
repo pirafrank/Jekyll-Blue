@@ -7,10 +7,10 @@ layout: default
     {{ page.title }}
   </div>
   <div class="post-details">
-    Category: {{ page.categories }}
+    {{ page.date | date: "%B %e, %Y" }}
   </div>
   <div class="post-details">
-    { page.date | date: "%B %e, %Y" }}
+    Category: {{ page.categories }}
   </div>
 
   <br>
