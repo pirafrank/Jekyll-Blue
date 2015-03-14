@@ -129,6 +129,9 @@ img {
 .date2 {
   font-size: 14px;
   color: $gray;
+  a {
+    font-size: 16px;
+  }
 }
 
 // Specify the color of the selection
@@ -230,9 +233,8 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   //font-family: $helveticaNeue;
   //font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Condensed', sans-serif;
   //font-family: 'Slabo 27px', serif;
-  font-size: 18px;
+  font-size: 16px;
 
   @include mobile {
     float: none;
