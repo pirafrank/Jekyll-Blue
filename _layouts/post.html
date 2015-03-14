@@ -3,30 +3,22 @@ layout: default
 ---
 
 <article class="post">
-  <div class="post-title">
-    {{ page.title }}
-  </div>
-  <div class="post-details">
-    {{ page.date | date: "%B %e, %Y" }}<br>
-    Category: {{ page.categories }}
+
+  <div>
+    <div class="post-title">
+      {{ page.title }}
+    </div>
+    <div class="post-details">
+      {{ page.date | date: "%B %e, %Y" }}<br>
+      Category: {{ page.categories }}
+    </div>
   </div>
 
   <br>
-  <!--
-  <div class="category">
-    <em>Category: {{page.categories}}</em>
-  </div>
-  -->
 
   <div class="entry">
     {{ content }}
   </div>
-
-  <!--
-  <div class="date">
-    {{ page.date | date: "%B %e, %Y" }}
-  </div>
-  -->
 
   {% include share-buttons.html %}
 
