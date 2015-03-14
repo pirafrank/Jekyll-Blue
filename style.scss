@@ -20,6 +20,7 @@ html {
 body {
 	background: $white;
   font: 18px/1.4;
+  line-height: 1.2;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: $darkGray;
@@ -75,11 +76,13 @@ p {
 }
 
 a {
-  color: $blue;
+  //color: $blue;
+  color: #148;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    //color: $blue;
+    color: #148;
   }
 }
 
@@ -122,11 +125,14 @@ img {
 }
 
 .date {
-  font-style: italic;
+  //font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+
   color: $gray;
 }
 
-.date2 {
+.post-link {
   font-size: 14px;
   color: $gray;
   a {
@@ -209,10 +215,9 @@ img {
   color: $darkGray;
   cursor: pointer;
   //font-family: $helveticaNeue;
-  //font-family: 'Roboto', sans-serif;
-  //font-family: 'Roboto Condensed', sans-serif;
-  //font-family: 'Merriweather', serif;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  //font-family: 'Dancing Script', cursive;
+  //font-family: 'Permanent Marker', cursive;
   font-weight: 400;
   font-size: 28px/4.8;
   //letter-spacing: 1px;
@@ -234,7 +239,6 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   //font-family: $helveticaNeue;
   //font-family: 'Roboto', sans-serif;
-  //font-family: 'Slabo 27px', serif;
   font-size: 16px;
 
   @include mobile {
@@ -253,7 +257,8 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      //color: $blue;
+      color: #148;
     }
   }
 
@@ -281,7 +286,6 @@ nav {
 
   font-family: 'Merriweather', serif;
   line-height: 1.6;
-  //font-family: 'Slabo 27px', serif;
   
   blockquote {
     margin: 1.8em .8em;
@@ -294,7 +298,6 @@ nav {
 
   h1, h2, h3, h4, h5, h6 {
   //font-family: $helveticaNeue;
-  //font-family: 'Slabo 27px', serif;
   font-color: $darkerGray;
   font-weight: bold;
 
