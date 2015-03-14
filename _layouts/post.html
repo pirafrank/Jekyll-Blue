@@ -3,11 +3,17 @@ layout: default
 ---
 
 <article class="post">
-  <h2>{{ page.title }}</h2>
-  Category: {{ page.categories }} <br>
-  { page.date | date: "%B %e, %Y" }}
-  <br>
+  <div class="post-title">
+    {{ page.title }}
+  </div>
+  <div class="post-details">
+    Category: {{ page.categories }}
+  </div>
+  <div class="post-details">
+    { page.date | date: "%B %e, %Y" }}
+  </div>
 
+  <br>
   <!--
   <div class="category">
     <em>Category: {{page.categories}}</em>
