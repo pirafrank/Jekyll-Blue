@@ -231,6 +231,7 @@ img {
 
 nav {
   float: right;
+  //position: fixed;
   margin-top: 23px; // @TODO: Vertically middle align
   //font-family: $helveticaNeue;
   //font-family: 'Roboto', sans-serif;
@@ -275,6 +276,7 @@ nav {
 .post {
 
   font-family: 'Merriweather', serif;
+  line-height: 1.6;
   //font-family: 'Slabo 27px', serif;
   
   blockquote {
