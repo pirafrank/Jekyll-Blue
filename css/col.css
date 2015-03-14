@@ -36,7 +36,7 @@
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
@@ -66,7 +66,7 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
   .span_5_of_5 {
     width: 100%; 
   }
