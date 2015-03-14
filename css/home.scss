@@ -1,9 +1,20 @@
 ---
 ---
 
-body {
-  //background-color: #34a;
-  font-size: 34px;
+//@import "variables";
+
+h1 {
+  font-weight: normal;
+  color: #fff;
+}
+
+.header {
+  * {
+    color: #fff;
+    &:hover, &:active {
+      color: #fff;
+    }
+  }
 }
 
 .container {
@@ -12,3 +23,34 @@ body {
   padding: 0 10px;
   width: 100%;
 }
+
+.content {
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+  width: 100%;
+  //line-height: 1.4;
+}
+
+.info-text {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.nav-links {
+  color: #fff;
+  text-align: right;
+  font-weight: 400;
+    &:hover, &:active {
+      color: #fff;
+    }
+}
+
+
+
+
+
+
+
+
+
+
