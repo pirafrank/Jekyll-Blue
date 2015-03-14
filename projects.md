@@ -6,7 +6,7 @@ permalink: /projects/
 
 <!-- trailing slash in permalink is needed -->
 
-## Projects
+# Projects
 
 Some information about my projects!
 
