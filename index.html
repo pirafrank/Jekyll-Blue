@@ -12,17 +12,31 @@
 
     <script type="text/javascript" src="{{ site.baseurl }}/js/velocity.min.js"></script>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/home.css" />
+    
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/col.css">
 
     {% include analytics.html %}
 
   </head>
 
   <body>
-    <div class="home">
 
-        text
+    <div class="container">
+        <div class="section group">
+        <h3>Two Columns</h3>
+        </div>
 
+        <div class="section group">
+          <div class="col span_2_of_5" style="background-color:red;">
+          2 of 5
+          </div>
+          <div class="col span_3_of_5" style="background-color:red;">
+          3 of 5
+          </div>
+        </div>
     </div>
+
   </body>
 </html>
 

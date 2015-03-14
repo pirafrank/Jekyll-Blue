@@ -1,8 +1,14 @@
 ---
 ---
 
-
 body {
-  background-color: #34a;
+  //background-color: #34a;
   font-size: 34px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 10px;
+  width: 100%;
 }
