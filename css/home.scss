@@ -56,6 +56,22 @@ h1 {
   }
 }
 
+.nav-links.nav-links-alt {
+  display: none;
+
+  * {
+    color: #fff;
+    &:hover, &:active {
+      color: #fff;
+    }
+  }
+
+  @include mobile {
+    display: block;
+    padding: 10px 0px 5px 0px;
+  }
+}
+
 .social {
   text-align: center;
   background-color: #34a;
