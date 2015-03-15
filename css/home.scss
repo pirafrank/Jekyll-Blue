@@ -8,6 +8,13 @@ h1 {
   color: #fff;
 }
 
+.cover {
+  background-image: url("{{ site.baseurl }}/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;  
+}
+
 .header {
   * {
     color: #fff;
@@ -56,6 +63,17 @@ h1 {
   }
 }
 
+.middle {
+  text-align: center;
+  background-color: #34a;
+  padding: 20px 0px 20px 0px;
+}
+
+.social {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .nav-links.nav-links-alt {
   display: none;
 
@@ -66,25 +84,15 @@ h1 {
     }
   }
 
+  a {
+    margin: 0px 10px 0px 10px;
+  }
+
   @include mobile {
     display: block;
     padding: 10px 0px 5px 0px;
   }
 }
-
-.social {
-  text-align: center;
-  background-color: #34a;
-  padding: 20px 0px 20px 0px;
-}
-
-.cover {
-  background-image: url("{{ site.baseurl }}/images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;  
-}
-
 
 
 
