@@ -70,8 +70,11 @@ h1 {
 }
 
 .social {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  
+  @include mobile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .nav-links.nav-links-alt {
