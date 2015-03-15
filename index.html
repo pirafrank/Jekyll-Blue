@@ -22,13 +22,12 @@
 
   <body>
 
-  <div style="background-color: #34a;">
-    <div class="container">
-
+  <div class="bg">
+    
+    <div class="container" style="padding-bottom: 30px;">
         <div class="section group header">
           <div class="col span_4_of_5">
-            
-              <div class="head-content" align="left" style="padding-right:20px;">
+              <div class="head-text" align="left" style="padding-right:20px;">
                 <p><img src="{{ site.baseurl }}/images/me.png" width="120px;"></p>
                 <h1>{{ site.name }}</h1>
                 <div class="info-text">
@@ -39,60 +38,35 @@
                   Contact Person at EESTEC JLC Catania<br>
                   Board Assistant of Youth Hub Catania<br>
                 </div>
+                <!--
                 <div>
                   <br>
                   <p><b>
-                  <!-- TWITTER | FACEBOOK | LINKEDIN -->
                   {% include svg-icons.html %}
                   </b></p>
                 </div>
+                -->
               </div>
-
           </div>
           <div class="col span_1_of_5">
-            
             <div class="content nav-links">
                 <p><a href="{{ site.baseurl }}/blog">BLOG</a></p>
                 <p><a href="{{ site.baseurl }}/projects">PROJECTS</a></p>
                 <p><a href="{{ site.baseurl }}/about">ABOUT</a><br></p>
             </div>
-
           </div>
         </div>
-
     </div>
-
   </div>
+
+  <div class="social">
+    {% include svg-icons.html %}
+  </div>
+
+  <div class="container">
+    text
+  </div>
+
   </body>
 </html>
 
-<!--
-<div>
-  {% for category in site.categories %}
-    {{page.categories}}<br>
-  {% endfor %}  
-</div>
-<br>
--->
-
-<!--
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <div class="date">
-        {{ page.date | date: "%B %e, %Y" }}
-      </div>
-
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-
-      
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
--->

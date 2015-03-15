@@ -24,7 +24,7 @@ h1 {
   width: 100%;
 }
 
-.head-content {
+.head-text {
   margin: 0 auto;
   padding: 10px 20px 10px 20px;
   width: 100%;
@@ -47,16 +47,24 @@ h1 {
     &:hover, &:active {
       color: #fff;
     }
+
   @include mobile {
     text-align: center;
   }
 }
 
+.social {
+  text-align: center;
+  background-color: #34a;
+  padding: 20px 0px 20px 0px;
+}
 
-
-
-
-
+.bg {
+  background-image: url("{{ site.baseurl }}/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;  
+}
 
 
 
