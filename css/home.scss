@@ -44,9 +44,34 @@ h1 {
   }
 }
 
+.circlePlate {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
+
+.circleUser {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #34a;
+}
+
 .info-text {
   font-size: 16px;
   line-height: 1.4;
+}
+
+.middle {
+  text-align: center;
+  background-color: #34a; //34a, 35a
+  padding: 20px 0px 20px 0px;
+}
+
+.social {
+  
+  @include mobile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 .nav-links {
@@ -61,21 +86,6 @@ h1 {
   @include mobile {
     text-align: center;
     display: none;
-  }
-}
-
-// move up
-.middle {
-  text-align: center;
-  background-color: #34a; //34a, 35a
-  padding: 20px 0px 20px 0px;
-}
-
-.social {
-  
-  @include mobile {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }
 
@@ -99,14 +109,4 @@ h1 {
   }
 }
 
-.circlePlate {
-    border-radius: 50%;
-    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
-}
-
-.circleUser {
-    width: 120px;
-    height: 120px;
-    border: 3px solid #34a;
-}
 
