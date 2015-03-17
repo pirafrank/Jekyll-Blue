@@ -64,6 +64,7 @@ h1 {
   }
 }
 
+// move up
 .middle {
   text-align: center;
   background-color: #34a; //34a, 35a
@@ -98,5 +99,15 @@ h1 {
   }
 }
 
+.circlePlate {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+}
 
+.circleUser {
+    width: 120px;
+    height: 120px;
+    //background-image: url("{{ site.avatar }}");
+    border: 3px solid red;
+}
 
