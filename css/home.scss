@@ -55,7 +55,7 @@ h1 {
     width: 120px;
     height: 120px;
     overflow: hidden; // auto-crop image to fit the set rounded border
-    border: 2px solid #34a;
+    border: 2px solid #ebebeb;
 
     img {
       width: 100%;
@@ -69,6 +69,7 @@ h1 {
 
 .infoText {
   font-size: 16px;
+  //color: #ebebeb;
   line-height: 1.4;
 }
 
