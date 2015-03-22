@@ -44,6 +44,8 @@ h1 {
   }
 }
 
+@import "custom-btn";
+
 .circlePlate {
     border-radius: 50%;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
