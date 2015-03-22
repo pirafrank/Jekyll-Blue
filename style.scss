@@ -271,6 +271,7 @@ nav {
     &:hover, &:active {
       //color: $blue;
       color: #fff;
+      //text-decoration:underline;
     }
 
     @include mobile {
