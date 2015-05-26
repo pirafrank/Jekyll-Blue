@@ -46,12 +46,12 @@ h1 {
 
 @import "custom-btn";
 
-.circlePlate {
+.userAvatarPlate {
     border-radius: 8%;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 }
 
-.circleUser {
+.userAvatar {
     width: 120px;
     height: 120px;
     overflow: hidden; // auto-crop image to fit the set rounded border
