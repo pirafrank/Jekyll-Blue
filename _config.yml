@@ -9,9 +9,12 @@ name: Francesco Pira
 description: "Computer Engineering student, Web Developer"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: "assets/images/me.jpg"
+avatar: "assets/images/avatar.jpg"
 
 timezone: Europe/Rome
+
+theme:
+  social_overlay_color: "#fff"
 
 #
 # Flags below are optional
@@ -21,7 +24,7 @@ timezone: Europe/Rome
 social-links:
   #dribbble:
   email: inbox@fpira.com
-  facebook: fpiraonline
+  facebook: myfacebook
   flickr: pirafrank
   github: pirafrank
   #instagram: pirafrank
@@ -29,17 +32,17 @@ social-links:
   #pinterest:
   rss: fpira # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: pirafrank
-  #stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  #stackoverflow: # your stackoverflow profile, e.g. "users/12345/john-doe"
   #youtube: # channel/<your_long_string> or user/<user-name>
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 #disqus:
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-59510020-2
+# Enter your Google Analytics web tracking code (e.g. UA-1234567-1) to activate tracking
+google_analytics: ""
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Your website URL (e.g. http://fpira.com)
 # Used for Sitemap.xml and your RSS feed
 url: fpira.com
 
@@ -58,12 +61,12 @@ highlighter: pygments
 permalink: '/:year/:month/:title/'
 excerpt_separator: "\n\n"
 
-# The release of Jekyll Now that you're using
-version: v1.1.0
+# Jekyll Blue version in use
+version: v0.1.0
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :compressed # You might prefer to minify using :compressed
+  style: :compressed # If you want to un-minify, set to :expanded
 
 # Use the following plug-ins
 gems:
