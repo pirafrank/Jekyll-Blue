@@ -65,12 +65,24 @@
   <div class="container">
     <div class="section group">
       <div class="col span_2_of_5">
-        <h3>Project Updates</h3>
+        <div class="news newsSectionTitle"><strong>Project Updates</strong></div>
         text 
       </div>
       <div class="col span_3_of_5">
-        <h3>Latest from blog</h3>
-        text
+        <div class="news newsSectionTitle"><strong>Latest from blog</strong></div>
+          {% for post in site.posts limit:5 %}
+            <div class="news newsEntry">
+              <a href="{{ post.url }}">
+                <span class="news newsTitle">{{ post.title }}</span>
+                <div class="news newsDate">{{ post.date | date: "%d %B %Y" }}</div>
+              </a>
+              {% if post.subtitle %}
+                <div>{{ post.subtitle | truncatehtml | truncatewords: 20 }}</div>
+              {% else %}
+                <div>{{ post.content | truncatehtml | truncatewords: 20 }}</div>
+              {% endif %}
+            </div>            
+          {% endfor %}
       </div>
     </div>
   </div>
