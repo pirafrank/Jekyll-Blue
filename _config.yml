@@ -22,22 +22,22 @@ theme:
 
 # Includes an icon in the footer for each username you enter
 social-links:
-  #dribbble:
+  dribbble: 
   email: inbox@fpira.com
-  facebook: myfacebook
-  flickr: pirafrank
+  facebook: 
+  flickr: 
   github: pirafrank
-  #instagram: pirafrank
+  instagram: 
   linkedin: fpira
-  #pinterest:
-  rss: fpira # just type anything here for a working RSS icon, make sure you set the "url" above!
+  pinterest: 
+  rss: stuff # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: pirafrank
-  #stackoverflow: # your stackoverflow profile, e.g. "users/12345/john-doe"
-  #youtube: # channel/<your_long_string> or user/<user-name>
+  stackoverflow: # your stackoverflow profile, e.g. "users/12345/john-doe"
+  youtube: # channel/<your_long_string> or user/<user-name>
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
-#disqus:
+disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-1234567-1) to activate tracking
 google_analytics: ""
