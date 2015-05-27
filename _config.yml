@@ -22,18 +22,18 @@ theme:
 
 # Includes an icon in the footer for each username you enter
 social-links:
-  dribbble: 
+  dribbble: john-doe
   email: inbox@fpira.com
-  facebook: 
-  flickr: 
+  facebook: john-doe
+  flickr: john-doe
   github: pirafrank
-  instagram: 
+  instagram: john-doe
   linkedin: fpira
-  pinterest: 
+  pinterest: john-doe
   rss: stuff # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: pirafrank
   stackoverflow: # your stackoverflow profile, e.g. "users/12345/john-doe"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube: john-doe # channel/<your_long_string> or user/<user-name>
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
