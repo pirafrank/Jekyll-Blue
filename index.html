@@ -80,12 +80,13 @@
                 <br>
                 <div>
                   {{ post.subtitle | truncatehtml | truncatewords: 20 }}
-                  <br><br><a href="{{ post.url }}">Read more...</a>
+                  <br><br>
+                  <span class="news newsDate"><a href="{{ post.url }}">Read more...</a></span>
                 </div>
               {% else %}
                 <div>
                   {{ post.content | truncatehtml | truncatewords: 20 }}
-                  <a href="{{ post.url }}">Read more...</a>
+                  <span class="news newsDate"><a href="{{ post.url }}">Read more...</a></span>
                 </div>
               {% endif %}
             </div>            
