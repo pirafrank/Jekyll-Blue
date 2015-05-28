@@ -2,7 +2,7 @@
 layout: post
 title: You're up and running!
 subtitle: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-categories: demo
+categories: otherdemo
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
