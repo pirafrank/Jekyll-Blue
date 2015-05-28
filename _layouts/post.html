@@ -11,7 +11,7 @@ layout: default
     </div>
     <div class="post-details">
       {{ page.date | date: "%B %e, %Y" }}<br>
-      Category: {{ page.categories }}
+      Category: <a href="{{ site.baseurl }}/blog/categories#{{ page.categories }}">{{ page.categories }}</a>
     </div>
   </div>
 
