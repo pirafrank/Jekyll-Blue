@@ -2,11 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
+show_title: true
 ---
 
 <!-- trailing slash in permalink is needed -->
-
-# Projects
 
 Some information about my projects!
 

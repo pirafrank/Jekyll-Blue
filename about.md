@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+show_title: false
 ---
 
 <!-- trailing slash in permalink is needed -->
