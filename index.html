@@ -74,14 +74,19 @@
         <div class="news newsSectionTitle"><strong>Latest from blog</strong></div>
           {% for post in site.posts limit: site.home.max_posts %}
             <div class="news newsEntry">
-              <a href="{{ post.url }}">
-                <span class="news newsTitle">{{ post.title }}</span>
-                <div class="news newsDate">{{ post.date | date: "%d %B %Y" }}</div>
-              </a>
+              <span class="news newsTitle">{{ post.title }}</span>
+              <div class="news newsDate">{{ post.date | date: "%d %B %Y" }}</div>
               {% if post.subtitle %}
-                <div>{{ post.subtitle | truncatehtml | truncatewords: 20 }}</div>
+                <br>
+                <div>
+                  {{ post.subtitle | truncatehtml | truncatewords: 20 }}
+                  <br><br><a href="{{ post.url }}">Read more...</a>
+                </div>
               {% else %}
-                <div>{{ post.content | truncatehtml | truncatewords: 20 }}</div>
+                <div>
+                  {{ post.content | truncatehtml | truncatewords: 20 }}
+                  <a href="{{ post.url }}">Read more...</a>
+                </div>
               {% endif %}
             </div>            
           {% endfor %}
