@@ -70,7 +70,7 @@
       </div>
       <div class="col span_3_of_5">
         <div class="news newsSectionTitle"><strong>Latest from blog</strong></div>
-          {% for post in site.posts limit:5 %}
+          {% for post in site.posts limit: site.home.max_posts %}
             <div class="news newsEntry">
               <a href="{{ post.url }}">
                 <span class="news newsTitle">{{ post.title }}</span>

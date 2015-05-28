@@ -13,12 +13,19 @@ avatar: "assets/images/avatar.jpg"
 
 timezone: Europe/Rome
 
-theme:
-  social_overlay_color: "#fff"
-
 #
 # Flags below are optional
 #
+
+# Customisation
+home:
+  show_updates: false # set it to true to enable, false to disable
+  max_updates: 5 # max number of project updates to show in home page
+  max_posts: 5 # max number of latest posts to show in home page
+
+# Theme Engine
+theme:
+  social_overlay_color: "#fff"
 
 # Includes an icon in the footer for each username you enter
 social-links:
