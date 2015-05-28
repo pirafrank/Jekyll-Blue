@@ -20,7 +20,7 @@ timezone: Europe/Rome
 # Customisation
 home:
   show_updates: false # set it to true to enable, false to disable
-  max_updates: 5 # max number of project updates to show in home page
+  max_updates: 5 # max number of projects updates to show in home page
   max_posts: 5 # max number of latest posts to show in home page
 
 # Theme Engine
