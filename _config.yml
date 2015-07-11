@@ -29,12 +29,12 @@ theme:
 
 # Includes an icon in the footer for each username you enter
 social-links:
-  dribbble: john-doe
+  dribbble:
   email: inbox@fpira.com
   facebook: john-doe
   flickr: john-doe
   github: pirafrank
-  instagram: john-doe
+  instagram:
   linkedin: fpira
   pinterest: john-doe
   rss: stuff # just type anything here for a working RSS icon, make sure you set the "url" above!
