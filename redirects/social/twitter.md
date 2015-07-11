@@ -7,12 +7,10 @@ show_title: false
 
 {% if site.social-links.twitter %}
 
-<META HTTP-EQUIV="Refresh"
-CONTENT="0; URL=http://twitter.com/{{ site.social-links.twitter }}">
+<META http-equiv="refresh" content="0;URL=http://twitter.com/{{ site.social-links.twitter }}">
 
 {% else %}
 
-<META HTTP-EQUIV="Refresh"
-CONTENT="0; URL="{{ site.baseurl }}">
+<META http-equiv="refresh" content="0;URL=http://{{ site.url }}">
 
 {% endif %}
