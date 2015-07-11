@@ -8,7 +8,7 @@ show_title: false
 {% if site.social-links.twitter %}
 
 <META HTTP-EQUIV="Refresh"
-CONTENT="0; URL="http://twitter.com/{{ site.social-links.twitter }}">
+CONTENT="0; URL=http://twitter.com/{{ site.social-links.twitter }}">
 
 {% else %}
 
