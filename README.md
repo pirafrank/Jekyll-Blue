@@ -6,6 +6,7 @@ All-in-one easy Jekyll solution.
 
 1 - Easily install all Jekyll required software with ``` gem install github-pages ``` (Ruby needed!)
 
+NB. If you stuble across error *Could not find a JavaScript runtime. (ExecJS::RuntimeUnavailable)*, solve it with ``` gem install therubyracer ```.
 
 ## Quick Start
 
