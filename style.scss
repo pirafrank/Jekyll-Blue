@@ -42,8 +42,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $defaultSansSerif;
+  font-weight: normal;
   color: $darkestGray;
-  font-weight: bold;
 
   line-height: 1.7;
   margin: 1em 0 15px;
