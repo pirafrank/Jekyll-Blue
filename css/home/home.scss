@@ -118,6 +118,32 @@ h1 {
   font-size: 14px;
 }
 
+nav {                   // these settings overwrite the ones in style.scss
+  margin-top: 0.4em;
+
+  @include mobile {
+    display: none;
+  }
+
+}
+
+.wrapper-masthead {     // these settings overwrite the ones in style.scss
+  margin-bottom: 0px;
+
+  @include mobile {
+    display: none;
+  }
+  
+}
+
+.masthead {             // these settings overwrite the ones in style.scss
+  padding: 10px 0;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
 .navLinks {
   color: $white;
   padding-right: 25px;

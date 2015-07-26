@@ -21,8 +21,17 @@
 
   <body>
 
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+
+        {% include nav.html %}
+        
+      </header>
+    </div>
+  </div>
+
   <div class="cover">
-    
     <div class="container">
         <div class="section group header">
           <div class="col span_4_of_5">
@@ -41,11 +50,13 @@
               </div>
           </div>
           <div class="col span_1_of_5">
+          <!--
             <div class="content navLinks">
                 <a href="{{ site.baseurl }}/blog" class="btn-elegant">BLOG</a><br>
                 <a href="{{ site.baseurl }}/projects" class="btn-elegant">PROJECTS</a><br>
                 <a href="{{ site.baseurl }}/about" class="btn-elegant">ABOUT</a>
             </div>
+          -->
           </div>
         </div>
     </div>
@@ -65,7 +76,7 @@
   <div class="container">
     <div class="section group">
       <div class="col span_3_of_5">
-        <div class="news newsSectionTitle"><strong>Latest from blog</strong></div>
+        <div class="news newsSectionTitle">Latest from blog</div>
           {% for post in site.posts limit: site.home.max_posts %}
             <div class="news newsEntry">
               <span class="news newsTitle">{{ post.title }}</span>
