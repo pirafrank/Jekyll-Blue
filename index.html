@@ -10,7 +10,7 @@
 
     {% include head.html %}
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/home.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/home/home.css" />
 
     <!-- columns support lib -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/col.css">
@@ -64,12 +64,6 @@
 
   <div class="container">
     <div class="section group">
-      <div class="col span_2_of_5">
-        {% if site.home.show_updates %}
-          <div class="news newsSectionTitle"><strong>Projects Updates</strong></div>
-          text 
-        {% endif %}
-      </div>
       <div class="col span_3_of_5">
         <div class="news newsSectionTitle"><strong>Latest from blog</strong></div>
           {% for post in site.posts limit: site.home.max_posts %}
@@ -91,6 +85,12 @@
               {% endif %}
             </div>            
           {% endfor %}
+      </div>
+      <div class="col span_2_of_5">
+        {% if site.home.show_updates %}
+          <div class="news newsSectionTitle"><strong>Projects Updates</strong></div>
+          text 
+        {% endif %}
       </div>
     </div>
   </div>
