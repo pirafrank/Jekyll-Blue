@@ -5,16 +5,32 @@
 
 // Colors
 $blue: #4183C4;
+$darkBlue: #34a; // #35a;
+
+// bootstrap color palette
+$primary: #337ab7;
+$primaryHover: #286090;
+$success: #3c763d;
+$successHover: #2b542c;
+$info: #31708f;
+$infoHover: #245269;
+$warning: #8a6d3b;
+$warningHover: #66512c;
+$danger: #a94442;
+$dangerHover: #843534;
 
 // Grays
 $black: #000;
-$darkerGray: #222;
-$darkGray: #333;
+$darkestGray: #222;
+$darkerGray: #333;
+$darkGray: #404040;
 $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
+$defaultSerif: 'Merriweather', serif;
+$defaultSansSerif: 'Roboto', Arial, sans-serif;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;

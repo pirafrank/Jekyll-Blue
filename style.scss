@@ -23,9 +23,9 @@ body {
 	background: $white;
   font-size: 20px;
   line-height: 1.2;
-  font-family: 'Roboto', sans-serif;
+  font-family: $defaultSansSerif;
   font-weight: 300;
-  color: $darkGray;
+  color: $darkerGray;
 }
 
 .container {
@@ -41,7 +41,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   //font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $darkestGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -79,12 +79,12 @@ p {
 
 a {
   //color: $blue;
-  color: #34a;
+  color: $darkBlue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
     //color: $blue;
-    color: #34a;
+    color: $darkBlue;
   }
 }
 
@@ -128,7 +128,7 @@ img {
 
 .date {
   //font-style: italic;
-  font-family: 'Roboto', sans-serif;
+  font-family: $defaultSansSerif;
   font-size: 16px;
 
   color: $gray;
@@ -173,7 +173,7 @@ img {
 //
 
 .wrapper-masthead {
-  background-color: #404040; //#34a;
+  background-color: $darkGray; //$darkBlue;
   margin-bottom: 50px;
 }
 
@@ -219,15 +219,15 @@ img {
 
 .site-name {
   margin: 0;
-  //color: $darkGray;
-  color: #fff;
+  //color: $darkerGray;
+  color: $white;
   cursor: pointer;
   font-weight: 400;
   font-size: 28px/4.8;
   //letter-spacing: 1px;
 
   a {
-    color: #fff;
+    color: $white;
   }
 
   @include mobile {
@@ -238,7 +238,7 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   //color: $gray;
-  color: #fff;
+  color: $white;
   font-size: 16px;
   font-weight: 300;
 
@@ -251,7 +251,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   //font-family: $helveticaNeue;
-  //font-family: 'Roboto', sans-serif;
+  //font-family: $defaultSansSerif;
   font-size: 16px;
 
   @include mobile {
@@ -263,21 +263,21 @@ nav {
 
   a {
     margin-left: 20px;
-    //color: $darkGray;
-    color: #fff;
+    //color: $darkerGray;
+    color: $white;
     text-align: right;
     font-weight: 400;
     //letter-spacing: 1px;
     &:hover, &:active {
       //color: $blue;
-      color: #fff;
+      color: $white;
       //text-decoration:underline;
     }
 
     @include mobile {
       margin: 0 10px;
       //color: $blue;
-      color: #fff;
+      color: $white;
     }
   }
 
@@ -303,7 +303,7 @@ nav {
 
 .post {
 
-  font-family: 'Merriweather', serif;
+  font-family: $defaultSerif;
   font-size: 18px;
   line-height: 1.6;
   
@@ -317,8 +317,8 @@ nav {
   }
 
   h1, h2, h3, h4, h5, h6 {
-  //font-family: $helveticaNeue;
-  font-color: $darkerGray;
+  //font-family: $defaultSansSerif;
+  font-color: $darkestGray;
   font-weight: bold;
 
   line-height: 1.7;
