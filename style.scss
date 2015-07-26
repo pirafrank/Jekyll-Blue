@@ -217,9 +217,9 @@ img {
   }
 }
 
-.site-name {
+.site-name { // edit this to change appearance of name in navbar
   margin: 0;
-  color: $white; // change this to change the color of the name in navbar
+  color: $white;
   cursor: pointer;
   font-weight: 400;
   font-size: 28px/4.8;
@@ -234,9 +234,9 @@ img {
   }
 }
 
-.site-description {
+.site-description { // edit this to change appearance of the line under the name in navbar
   margin: -5px 0 0 0;
-  color: $white; // change this to change the color of the line under the name in navbar
+  color: $white;
   font-size: 16px;
   font-weight: 300;
 
@@ -245,10 +245,10 @@ img {
   }
 }
 
-nav {
+nav { // edit this to change navbar appearance
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $defaultSansSerif; // navbar font
+  font-family: $defaultSansSerif; 
   font-size: 16px;
 
   @include mobile {
@@ -325,14 +325,14 @@ nav {
     }
   }
 
-  .post-title {
+  .post-title { // edit appearance of post title
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 0.4em;
     color: $darkerGray;
   }
 
-  .post-subtitle {
+  .post-subtitle { // edit appearance of post subtitle
     font-size: 18px;
     font-style: italic;
     font-weight: normal;
@@ -340,7 +340,7 @@ nav {
     color: $gray;
   }
 
-  .post-details {
+  .post-details { // edit appearance of post details (date, category, ecc.)
     font-size: 14px;
     margin-bottom: 0.5em;
     color: $gray;
@@ -350,7 +350,9 @@ nav {
     }
   }
 
-  .share-post { 
+  // apparearance of post body is managed by post class. see above.
+
+  .share-post { // edit appearance of share div
     margin-top: 2em;
     margin-bottom: 1em;
     font-size: 14px;
