@@ -6,7 +6,7 @@
 name: John Doe
 
 # Short bio or description (displayed in the header)
-description: "Computer Science student, Web Developer"
+description: "Curious mind, Web Developer, Startupper"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: "assets/images/avatar.jpg"
@@ -17,17 +17,19 @@ timezone: Europe/Rome
 # Flags below are optional
 #
 
-# Customisation
+# Home customisation
 home:
   show_updates: false # set it to true to enable, false to disable
   max_updates: 5 # max number of projects updates to show in home page
   max_posts: 5 # max number of latest posts to show in home page
 
 # Theme Engine
+# To change site-wide fonts, go to _sass/_variables anche change the hex values.
+# To change site-wide colors, go to _sass/_variables anche change the hex values.
 theme:
   social_overlay_color: "#fff"
 
-# Includes an icon in the footer for each username you enter
+# Includes a social icon in social divs for each username you enter
 social-links:
   dribbble:
   email: inbox@fpira.com
