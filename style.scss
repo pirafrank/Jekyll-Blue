@@ -25,7 +25,7 @@ body {
   line-height: 1.2;
   font-family: $defaultSansSerif;
   font-weight: 300;
-  color: $darkerGray;
+  color: $darkerGray; // site-wide font color (overrindden multiple times...)
 }
 
 .container {
@@ -40,7 +40,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  //font-family: $helveticaNeue;
+  font-family: $defaultSansSerif;
   color: $darkestGray;
   font-weight: bold;
 
@@ -79,7 +79,7 @@ p {
 
 a {
   //color: $blue;
-  color: $darkBlue;
+  color: $darkBlue; // change this to change color of links site-wide
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -219,8 +219,7 @@ img {
 
 .site-name {
   margin: 0;
-  //color: $darkerGray;
-  color: $white;
+  color: $white; // change this to change the color of the name in navbar
   cursor: pointer;
   font-weight: 400;
   font-size: 28px/4.8;
@@ -237,8 +236,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  //color: $gray;
-  color: $white;
+  color: $white; // change this to change the color of the line under the name in navbar
   font-size: 16px;
   font-weight: 300;
 
@@ -250,8 +248,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  //font-family: $helveticaNeue;
-  //font-family: $defaultSansSerif;
+  font-family: $defaultSansSerif; // navbar font
   font-size: 16px;
 
   @include mobile {
@@ -263,21 +260,18 @@ nav {
 
   a {
     margin-left: 20px;
-    //color: $darkerGray;
-    color: $white;
+    color: $white; // navbar links color
     text-align: right;
     font-weight: 400;
     //letter-spacing: 1px;
     &:hover, &:active {
-      //color: $blue;
-      color: $white;
-      //text-decoration:underline;
+      color: $white; // hover color for navbar links
+      //text-decoration:underline; // uncomment this to underline navbar links
     }
 
     @include mobile {
       margin: 0 10px;
-      //color: $blue;
-      color: $white;
+      color: $white; // hover color for navbar links on mobile
     }
   }
 
@@ -383,12 +377,13 @@ nav {
 
 .line-separator{
   height:1px;
-  //background:#717171;
-  border-bottom: 1px solid #ddd;
+  //background: $darkGray;
+  border-bottom: 1px solid $lightGray;
 }
 
 footer {
-  font: 14px/1.2;
+  font-size: 16px;
+  line-height: 1.2;
   padding: 20px 0;
   text-align: center;
 }
