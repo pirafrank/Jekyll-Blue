@@ -329,6 +329,7 @@ nav { // edit this to change navbar appearance
   .post-title { // edit appearance of post title
     font-size: 26px;
     font-weight: bold;
+    letter-spacing: -0.05em;
     margin-bottom: 0.4em;
     color: $darkerGray;
   }
