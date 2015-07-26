@@ -300,6 +300,7 @@ nav {
   font-family: $defaultSerif;
   font-size: 18px;
   line-height: 1.6;
+  color: $darkGray;
   
   blockquote {
     margin: 1.8em .8em;
@@ -312,7 +313,7 @@ nav {
 
   h1, h2, h3, h4, h5, h6 {
   //font-family: $defaultSansSerif;
-  font-color: $darkestGray;
+  font-color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -328,27 +329,38 @@ nav {
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 0.4em;
+    color: $darkerGray;
+  }
 
-    p {
-      font-size: 18px;
-      font-style: italic;
-      font-weight: normal;
-    }
+  .post-subtitle {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 1.5em;
+    color: $gray;
   }
 
   .post-details {
     font-size: 14px;
     margin-bottom: 0.5em;
+    color: $gray;
+
+    a {
+      color: $darkBlue;
+    }
   }
 
-  .share-post {
+  .share-post { 
     margin-top: 2em;
     margin-bottom: 1em;
     font-size: 14px;
     color: $gray;
 
     a {
-      color: $blue;
+      color: $blue;      
+      &:hover, &:active {
+        color: $darkBlue;
+      }
     }
   }
 
