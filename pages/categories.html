@@ -7,21 +7,26 @@ show_title: true
 
 <div>
   <h4><a href="{{ site.baseurl }}/blog">By Time</a> / By Category</h5>
+  <div class="line-separator"></div>
   <br>
 
   <div>
 
     {% for category in site.categories %}
       <div id="{{ category | first }}">
-        <li><a name="{{ category | first }}"><b>{{ category | first }}</b></a>
-          <ul>
+        <a name="{{ category | first }}"><b>{{ category | first }}</b></a>
           {% for posts in category %}
             {% for post in posts %}
-              <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date: "%B %e, %Y" }} <br>
+              <div class="post-entry">
+                <div class="post-link">
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </div>
+                <div class="date">
+                  {{ post.date | date: "%B %e, %Y" }}
+                </div>
+              </div>
             {% endfor %}
           {% endfor %}
-          </ul>
-        </li>
       </div>
     {% endfor %}
 
