@@ -2,6 +2,8 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pirafrank/Jekyll-Blue?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
+![Imgur](http://i.imgur.com/UDLHJKT.png)
+
 All-in-one easy Jekyll solution.
 
 ## Setting up the environment
