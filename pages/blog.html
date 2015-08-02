@@ -9,24 +9,20 @@ show_title: true
   <h4>By Time / <a href="{{ site.baseurl }}/blog/by-category/">By Category</a></h4>
   <br>
 
-  <div style="font-family: 'Merriweather', serif;">
-
+  <div>
     {% for post in site.posts %}
 
-      <p>
-          <span class="date">{{ post.date | date: "%B %e, %Y" }} > </span><span class="post-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
-      </p>
-
-      <!--
-      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      -->
-
-      <!--
-      <div class="entry">
-        {{ post.excerpt }}
+      <div class="post-entry">
+        <div class="post-link">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </div>
+        <div class="post-category">
+          Category: {{ post.categories }}
+        </div>
+        <div class="date">
+          {{ post.date | date: "%B %e, %Y" }}
+        </div>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
 
     {% endfor %}
 
