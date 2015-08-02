@@ -19,11 +19,13 @@ Include here your portfolio.
 
 ### Social
 
-{% include svg-icons.html %}
+<div class="social">
+  {% include svg-icons.html %}
+</div>
 
 ### Contact me
 
-[sendme@something.email](mailto:sendme@something.email)
+[inbox@fpira.com](mailto:inbox@fpira.com)
 
 ### Credits
 

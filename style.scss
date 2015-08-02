@@ -266,6 +266,14 @@ nav { // edit this to change navbar appearance
   position:fixed; top:2%; right:2%;
 }
 
+.social {
+  
+  @include mobile {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
 //
 // .main
 //
