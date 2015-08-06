@@ -10,7 +10,9 @@ All-in-one easy Jekyll solution.
 
 1 - Easily install all Jekyll required software with ``` gem install github-pages ``` (Ruby needed!)
 
-NB. If you stuble across error *Could not find a JavaScript runtime. (ExecJS::RuntimeUnavailable)*, solve it with ``` gem install therubyracer ```.
+### Troubleshooting
+
+If you stuble across error *Could not find a JavaScript runtime. (ExecJS::RuntimeUnavailable)*, solve it with ``` gem install therubyracer ```.
 
 ## Quick Start
 
@@ -62,9 +64,30 @@ If you still want to have this facade security, follow the procedure below.
 
 You're done!
 
+## License
+
+Copyright (c) 2015 Francesco Pira <dev@fpira.com>.
+
+Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, copyright (c) 2015 Barry Clark.
+
+    Jekyll Blue is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Jekyll Blue is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Jekyll Blue.  If not, see <http://www.gnu.org/licenses/>.
+
 
 ## Credits
 
-*cover.jpg* is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. You can read the license text [here](http://creativecommons.org/licenses/by-nc-nd/4.0/).
-<br>Owner: Francesco Pira
-<br>Title: Etna view from the Ancient Theatre of Taormina.
+- [Jekyll Now](https://github.com/barryclark/jekyll-now), its contributors and third-part projects who made it possible
+- Google Fonts
+- https://github.com/adchsm/Slidebars
+
+*cover.jpg* is a photo I took in 2014 and it's entitled "*Etna view from the Ancient Theatre of Taormina*". I license it under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). Feel free to use it under the license terms. You can read the full license text [here](http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
