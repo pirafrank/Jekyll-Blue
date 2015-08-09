@@ -319,29 +319,36 @@ nav { // edit this to change navbar appearance
   }
 
   .post-title { // edit appearance of post title
-    font-size: 26px;
-    font-weight: bold;
-    letter-spacing: -0.05em;
+    h2 {
+      font-size: 26px;
+      font-weight: bold;
+      font-family: $defaultSerif;
+      letter-spacing: -0.05em;
+      color: $darkerGray;
+    }
     margin-bottom: 0.4em;
-    color: $darkerGray;
   }
 
   .post-subtitle { // edit appearance of post subtitle
-    font-size: 18px;
-    font-style: italic;
-    font-weight: normal;
+    i {
+      font-size: 18px;
+      font-style: italic;
+      font-weight: normal;
+      color: $gray;
+    }
     margin-bottom: 1.5em;
-    color: $gray;
   }
 
   .post-details { // edit appearance of post details (date, category, ecc.)
-    font-size: 14px;
-    margin-bottom: 0.5em;
-    color: $gray;
-
-    a {
-      color: $darkBlue;
+    strong {
+      font-size: 14px;
+      font-weight: normal;
+      color: $gray;
+      a {
+        color: $darkBlue;
+      }
     }
+    margin-bottom: 0.5em;
   }
 
   // apparearance of post body is managed by post class. see above.

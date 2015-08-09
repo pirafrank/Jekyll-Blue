@@ -6,14 +6,16 @@ layout: default
 
   <div>
     <div class="post-title">
-      {{ page.title }}
+      <h2>{{ page.title }}</h2>
     </div>
     <div class="post-subtitle">
-      {{ page.subtitle }}
+      <i>{{ page.subtitle }}</i>
     </div>
     <div class="post-details">
-      {{ page.date | date: "%B %e, %Y" }}<br>
-      Category: <a href="{{ site.baseurl }}/blog/by-category#{{ page.categories }}">{{ page.categories }}</a>
+      <strong>
+        {{ page.date | date: "%B %e, %Y" }}<br>
+        Category: <a href="{{ site.baseurl }}/blog/by-category#{{ page.categories }}">{{ page.categories }}</a>
+      </strong>
     </div>
   </div>
 
