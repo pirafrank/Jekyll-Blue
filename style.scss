@@ -10,7 +10,8 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
-@import "cssdebug";
+// handy CSS import to help DIVs design highlightning DIVs with colors
+// @import "cssdebug";
 
 /**************/
 /* BASE RULES */
@@ -267,14 +268,16 @@ nav { // edit this to change navbar appearance
 
 }
 
+.myfixed {
+  position:fixed; top:2%; right:2%;
+}
+
 .page-title {
   @include mobile{
     text-align: center;
   }
 }
 
-.myfixed {
-  position:fixed; top:2%; right:2%;
 }
 
 .social {
@@ -405,8 +408,10 @@ nav { // edit this to change navbar appearance
   border-bottom: 1px solid $lightGray;
 }
 
-
+//
 // CSS for /blog and /by-category pages
+//
+
 .post-sort {
   @include mobile {
     text-align: center;
@@ -445,8 +450,9 @@ nav { // edit this to change navbar appearance
   color: $gray;
 }
 
-
+//
 // FOOTER CSS
+//
 .wrapper-footer {
   margin-top: 50px;
   //border-top: 1px solid #ddd; // original ugly stuff
