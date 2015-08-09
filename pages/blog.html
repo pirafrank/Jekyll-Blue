@@ -6,11 +6,15 @@ show_title: true
 ---
 
 <div>
-  <h4>By Time / <a href="{{ site.baseurl }}/blog/by-category/">By Category</a></h4>
+  <div class="post-sort">
+    <h5>By Time / <a href="{{ site.baseurl }}/blog/by-category/">By Category</a></h5>
+  </div>
+
   <div class="line-separator"></div>
   <br>
 
   <div>
+  
     {% for post in site.posts %}
 
       <div class="post-entry">

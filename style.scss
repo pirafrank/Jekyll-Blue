@@ -74,6 +74,11 @@ h4 {
   color: $gray;
 }
 
+h5 {
+  font-size: 20px;
+  color: $gray;
+}
+
 p {
   margin: 15px 0;
 }
@@ -394,13 +399,6 @@ nav { // edit this to change navbar appearance
   }
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  //border-top: 1px solid #ddd; // original ugly stuff
-  //border-bottom: 1px solid #ddd; // original ugly stuff
-  //background-color: $lightGray; // original ugly stuff
-}
-
 .line-separator{
   height:1px;
   //background: $darkGray;
@@ -408,10 +406,21 @@ nav { // edit this to change navbar appearance
 }
 
 
-// css for /blog and /categories
+// CSS for /blog and /by-category pages
+.post-sort {
+  @include mobile {
+    text-align: center;
+  }
+}
+
 .post-entry {
   padding: 0em 0em 1.4em;
   margin-left: 1em;
+
+    @include mobile {
+      //text-align: center;
+      margin-left: 0em;
+    }
 }
 
 .post-link {
@@ -438,6 +447,13 @@ nav { // edit this to change navbar appearance
 
 
 // FOOTER CSS
+.wrapper-footer {
+  margin-top: 50px;
+  //border-top: 1px solid #ddd; // original ugly stuff
+  //border-bottom: 1px solid #ddd; // original ugly stuff
+  //background-color: $lightGray; // original ugly stuff
+}
+
 footer {
   font-size: 16px;
   line-height: 1.2;
