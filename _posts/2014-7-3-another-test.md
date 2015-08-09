@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Another Dummy Post
+title: Another dummy post with a very long title to better test our Jekyll-Blue
 categories: demo
 
 ---
