@@ -88,6 +88,7 @@ Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, c
 
 - [Jekyll Now](https://github.com/barryclark/jekyll-now), its contributors and third-part projects who made it possible
 - Google Fonts
+- [labs.jonsuh.com/](http://labs.jonsuh.com/responsive-video-embed/) for responsive video support
 - https://github.com/adchsm/Slidebars
 
 *cover.jpg* is a photo I took in 2014 and it's entitled "*Etna view from the Ancient Theatre of Taormina*". I license it under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). Feel free to use it under the license terms. You can read the full license text [here](http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).

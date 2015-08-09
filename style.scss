@@ -278,15 +278,16 @@ nav { // edit this to change navbar appearance
   }
 }
 
-}
-
+// social class to use in home and about pages and footer
 .social {
-  
   @include mobile {
     padding-top: 10px;
     padding-bottom: 10px;
   }
 }
+
+// responsive video support
+@import "responsive-video";
 
 //
 // .main
