@@ -24,8 +24,9 @@ All-in-one easy Jekyll solution.
   - mobile is supported
   - ..and it's easy to use, too. Please read how to use it below.
 - Reach all articles of the same category of the post you're reading with a single click
-- CSS class to support tablets and similar-sized screens
+- Evernote Web Clipper and Evernote Clearly support: your articles are displayed beautifully
 - Responsive support for videos (HTML5, embedded, YouTube and Vimeo)
+- CSS class to support tablets and similar-sized screens
 - Sass variables overhaul: easily apply your favourite colors!
   - embedded bootstrap color palette
 - variables to easily change fonts site-wide
