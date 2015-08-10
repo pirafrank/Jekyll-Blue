@@ -9,13 +9,13 @@ layout: default
       <h2>{{ page.title }}</h2>
     </div>
     <div class="post-subtitle">
-      <i>{{ page.subtitle }}</i>
+      <strong>{{ page.subtitle }}</strong>
     </div>
     <div class="post-details">
-      <strong>
+      <i>
         {{ page.date | date: "%B %e, %Y" }}<br>
         Category: <a href="{{ site.baseurl }}/blog/by-category#{{ page.categories }}">{{ page.categories }}</a>
-      </strong>
+      </i>
     </div>
   </div>
 

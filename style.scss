@@ -345,7 +345,7 @@ nav { // edit this to change navbar appearance
   }
 
   .post-subtitle { // edit appearance of post subtitle
-    i {
+    strong {
       font-size: 18px;
       font-style: italic;
       font-weight: normal;
@@ -355,8 +355,9 @@ nav { // edit this to change navbar appearance
   }
 
   .post-details { // edit appearance of post details (date, category, ecc.)
-    strong {
+    i {
       font-size: 14px;
+      font-style: normal;
       font-weight: normal;
       color: $gray;
       a {
