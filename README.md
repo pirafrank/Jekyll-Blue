@@ -18,6 +18,11 @@ All-in-one easy Jekyll solution.
   - Sort posts by date or by category
 - Automatic urls creation with redirect to enabled social networks
   - e.g. yourwebsite.com/twitter automatically redirects to your twitter account, yourwebsite.com/facebook to your facebook profile, and so on. Just you set up your social networks in _config.yml file
+- Email obfuscation, so you don't get spam (yay!).
+  - *BONUS:* your email is displayed correctly
+  - ```mailto``` link works
+  - mobile is supported
+  - ..and it's easy to use, too. Please read how to use it below.
 - Reach all articles of the same category of the post you're reading with a single click
 - CSS class to support tablets and similar-sized screens
 - Responsive support for videos (HTML5, embedded, YouTube and Vimeo)
@@ -32,6 +37,31 @@ All-in-one easy Jekyll solution.
 - Improved footer
 - ...more I forgot!
 
+#### Using email obfuscation
+
+Make your email secure in 2 steps:
+
+1 - Go to ```_config.yml``` 
+
+2 - In *encryptedemail* type your email with **1 space** between each character (don't worry, it will be displayed correctly :smiley:). You're done!
+
+**Example**
+
+If your email is *myawesome@email.com*, then type *m y a w e s o m e @ e m a i l . c o m*.
+
+**! Important !**
+
+Don't leave the field empty or the link in *About* page won't work.
+
+**Always-secure email**
+
+Use the code below wherever you want (even in markdown pages!) to secure your email.
+
+```html
+<div class="safe-email">
+    <a href="mailto:{{ site.encryptedemail }}" onclick="this.href=this.href.replace(/ /g,'')">{{ site.encryptedemail }}</a>
+</div>
+```
 
 ## Quick start
 

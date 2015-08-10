@@ -25,7 +25,9 @@ Include here your portfolio.
 
 ### Contact me
 
-[inbox@fpira.com](mailto:inbox@fpira.com)
+<div class="safe-email">
+    <a href="mailto:{{ site.encryptedemail }}" onclick="this.href=this.href.replace(/ /g,'')">{{ site.encryptedemail }}</a>
+</div>
 
 ### Credits
 

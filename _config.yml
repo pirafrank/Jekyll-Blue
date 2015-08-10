@@ -23,8 +23,7 @@ home:
   max_posts: 5 # max number of latest posts to show in home page
 
 # Theme Engine
-# To change site-wide fonts, go to _sass/_variables anche change the hex values.
-# To change site-wide colors, go to _sass/_variables anche change the hex values.
+# To change site-wide fonts and colors, go to _sass/_variables anche change the hex values.
 
 # Includes a social icon in social divs for each username you enter
 social-links:
@@ -41,6 +40,12 @@ social-links:
   stackoverflow: users/12345/john-doe # your stackoverflow profile, e.g. "users/12345/john-doe"
   youtube: john-doe # channel/<your_long_string> or user/<user-name>
   googleplus: +johndoe # e.g. https://plus.google.com/+johndoe
+
+# Type your email with **1 space** between each character.
+# Don't worry, it will be displayed correctly.
+# For example: inbox@fpira.com -> inbox@nospampleasefpira.com
+# NOTE: Don't leave it empty or the link in About page won't work.
+encryptedemail: "i n b o x @ f p i r a . c o m"
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
