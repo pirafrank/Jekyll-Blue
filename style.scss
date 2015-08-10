@@ -75,11 +75,6 @@ h4 {
   color: $gray;
 }
 
-h5 {
-  font-size: 20px;
-  color: $gray;
-}
-
 p {
   margin: 15px 0;
 }
@@ -268,6 +263,10 @@ nav { // edit this to change navbar appearance
 
 }
 
+//
+// pages
+//
+
 .myfixed {
   position:fixed; top:2%; right:2%;
 }
@@ -278,8 +277,18 @@ nav { // edit this to change navbar appearance
   }
 }
 
-// social class to use in home and about pages and footer
-.social {
+.page-options {
+  h5 {
+    font-size: 20px;
+    color: $gray;
+  }
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.social { 
   @include mobile {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -289,8 +298,14 @@ nav { // edit this to change navbar appearance
 // responsive video support
 @import "responsive-video";
 
+.line-separator{
+  height:1px;
+  //background: $darkGray;
+  border-bottom: 1px solid $lightGray;
+}
+
 //
-// .main
+// .main for post pages
 //
 
 .posts > .post {
@@ -404,21 +419,9 @@ nav { // edit this to change navbar appearance
   }
 }
 
-.line-separator{
-  height:1px;
-  //background: $darkGray;
-  border-bottom: 1px solid $lightGray;
-}
-
 //
 // CSS for /blog and /by-category pages
 //
-
-.post-sort {
-  @include mobile {
-    text-align: center;
-  }
-}
 
 .post-entry {
   padding: 0em 0em 1.4em;
