@@ -6,15 +6,44 @@
 
 All-in-one easy Jekyll solution.
 
-## Setting up the environment
+## Features
 
-1 - Easily install all Jekyll required software with ``` gem install github-pages ``` (Ruby needed!)
+- All features of Jekyll-Now (credits to the author and contributors)
 
-### Troubleshooting
+Plus:
+
+- Completely redesigned home page
+- Dedicated page for all blog posts
+  - Sort posts by date or by category
+- Automatic urls creation with redirect to enabled social networks
+  - e.g. yourwebsite.com/twitter automatically redirects to your twitter account, yourwebsite.com/facebook to your facebook profile, and so on. Just you set up your social networks in _config.yml file
+- Reach all articles of the same category of the post you're reading with a single click
+- CSS class to support tablets and similar-sized screens
+- Sass variables overhaul: easily apply your favourite colors!
+  - embedded bootstrap color palette
+- variables to easily change fonts site-wide
+- New fonts!
+  - Go the Google way with Roboto for sans-serif
+  - Posts are written in beautiful Merriweather for better reading
+- Improved font handling: ttf and woff2 fonts are embedded so your site displays the same on a wide range of devices
+- Support for post sharing on Twitter, Facebook, LinkedIn, Google+
+- Improved footer
+- ...more I forgot!
+
+
+## Quick start
+
+### Setting up the environment
+
+Easily install all Jekyll required software with ``` gem install github-pages ``` (Ruby needed!)
+
+Already done? Skip to 'Make it yours'!
+
+#### Troubleshooting
 
 If you stuble across error *Could not find a JavaScript runtime. (ExecJS::RuntimeUnavailable)*, solve it with ``` gem install therubyracer ```.
 
-## Quick Start
+### Make it yours
 
 1 - Fork this repo and rename it to yourgithubusername.github.io (yes, '.github.io' is included)
 
@@ -31,7 +60,7 @@ Your website is available at yourgithubusername.github.io (for free, yay!)
 Easy, isn't it?
 
 
-## Custom Domain
+## Use your custom domain
 
 You could buy a domain and setup a redirect or better setup a DNS redirect.
 
@@ -64,6 +93,12 @@ If you still want to have this facade security, follow the procedure below.
 
 You're done!
 
+## Contribute
+
+Got a great feature it's missing? 
+
+Fork this repo, clone, code the feature and send me a pull-request!
+
 ## License
 
 Copyright (c) 2015 Francesco Pira <dev@fpira.com>.
@@ -89,6 +124,5 @@ Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, c
 - [Jekyll Now](https://github.com/barryclark/jekyll-now), its contributors and third-part projects who made it possible
 - Google Fonts
 - [labs.jonsuh.com/](http://labs.jonsuh.com/responsive-video-embed/) for responsive video support
-- https://github.com/adchsm/Slidebars
 
 *cover.jpg* is a photo I took in 2014 and it's entitled "*Etna view from the Ancient Theatre of Taormina*". I license it under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). Feel free to use it under the license terms. You can read the full license text [here](http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
