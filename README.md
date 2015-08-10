@@ -8,17 +8,19 @@ All-in-one easy Jekyll solution.
 
 ## Features
 
-- All features of Jekyll-Now (credits to the author and contributors)
+- All features of Jekyll-Now (credits to its author and its contributors)
 
-Plus:
+### Plus
 
 - Completely redesigned home page
+- Full-width navbar
 - Dedicated page for all blog posts
   - Sort posts by date or by category
 - Automatic urls creation with redirect to enabled social networks
   - e.g. yourwebsite.com/twitter automatically redirects to your twitter account, yourwebsite.com/facebook to your facebook profile, and so on. Just you set up your social networks in _config.yml file
 - Reach all articles of the same category of the post you're reading with a single click
 - CSS class to support tablets and similar-sized screens
+- Responsive support for videos (HTML5, embedded, YouTube and Vimeo)
 - Sass variables overhaul: easily apply your favourite colors!
   - embedded bootstrap color palette
 - variables to easily change fonts site-wide
@@ -101,7 +103,7 @@ Fork this repo, clone, code the feature and send me a pull-request!
 
 ## License
 
-Copyright (c) 2015 Francesco Pira <dev@fpira.com>.
+Copyright (c) 2015 Francesco Pira < fpira.com >.
 
 Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, copyright (c) 2015 Barry Clark.
 
@@ -116,7 +118,7 @@ Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, c
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with Jekyll Blue.  If not, see <http://www.gnu.org/licenses/>.
+    along with Jekyll Blue. If not, see <http://www.gnu.org/licenses/>.
 
 
 ## Credits
@@ -124,5 +126,6 @@ Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, c
 - [Jekyll Now](https://github.com/barryclark/jekyll-now), its contributors and third-part projects who made it possible
 - Google Fonts
 - [labs.jonsuh.com/](http://labs.jonsuh.com/responsive-video-embed/) for responsive video support
+- [This guy](http://stackoverflow.com/users/27009/pornel) on StackOverflow for [email obfuscation code](http://stackoverflow.com/questions/163628/making-email-addresses-safe-from-bots-on-a-webpage)
 
 *cover.jpg* is a photo I took in 2014 and it's entitled "*Etna view from the Ancient Theatre of Taormina*". I license it under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). Feel free to use it under the license terms. You can read the full license text [here](http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
