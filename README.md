@@ -6,6 +6,8 @@
 
 All-in-one easy Jekyll solution.
 
+**Already downloaded? Check the [customisation](#customisation) section!**
+
 ## Features
 
 - All features of Jekyll-Now (credits to its author and its contributors)
@@ -14,23 +16,27 @@ All-in-one easy Jekyll solution.
 
 - Completely redesigned home page
 - Full-width navbar
-- Dedicated page for all blog posts
-  - Sort posts by date or by category
+- Website search
+  - Powered by duckduckgo, so you don't have to worry about being tracked
 - Automatic urls creation with redirect to enabled social networks
   - e.g. yourwebsite.com/twitter automatically redirects to your twitter account, yourwebsite.com/facebook to your facebook profile, and so on. Just you set up your social networks in _config.yml file
+- Choose whether to display or not page titles on a per-page basis.
 - Email obfuscation, so you don't get spam (yay!).
   - *BONUS:* your email is displayed correctly
   - ```mailto``` link works
   - mobile is supported
   - ..and it's easy to use, too. Please read how to use it below.
+- Dedicated page for all blog posts
+  - Sort posts by date or by category
 - Reach all articles of the same category of the post you're reading with a single click
 - Evernote Web Clipper and Evernote Clearly support: your articles are displayed beautifully
 - Responsive support for videos (HTML5, embedded, YouTube and Vimeo)
 - CSS class to support tablets and similar-sized screens
+  - Use ```@include smallscreen``` in your Sass code
 - Sass variables overhaul: easily apply your favourite colors!
-  - embedded bootstrap color palette
-- variables to easily change fonts site-wide
-- New fonts!
+- Bootstrap color palette ready to use
+- Variables to easily change fonts site-wide
+- Great fonts!
   - Go the Google way with Roboto for sans-serif
   - Posts are written in beautiful Merriweather for better reading
 - Improved font handling: ttf and woff2 fonts are embedded so your site displays the same on a wide range of devices
@@ -38,31 +44,7 @@ All-in-one easy Jekyll solution.
 - Improved footer
 - ...more I forgot!
 
-#### Using email obfuscation
-
-Make your email secure in 2 steps:
-
-1 - Go to ```_config.yml``` 
-
-2 - In *encryptedemail* type your email with **1 space** between each character (don't worry, it will be displayed correctly :smiley:). You're done!
-
-**Example**
-
-If your email is *myawesome@email.com*, then type *m y a w e s o m e @ e m a i l . c o m*.
-
-**! Important !**
-
-Don't leave the field empty or the link in *About* page won't work.
-
-**Always-secure email**
-
-Use the code below wherever you want (even in markdown pages!) to secure your email.
-
-```html
-<div class="safe-email">
-    <a href="mailto:{{ site.encryptedemail }}" onclick="this.href=this.href.replace(/ /g,'')">{{ site.encryptedemail }}</a>
-</div>
-```
+Looking how to use one or more features? Please, check the [customisation](#customisation) section.
 
 ## Quick start
 
@@ -92,6 +74,53 @@ Your website is available at yourgithubusername.github.io (for free, yay!)
 
 Easy, isn't it?
 
+## Customisation
+
+#### Website-wide
+
+**Style**
+
+Check ```styles.scss``` in root folder.
+
+**Colors and Fonts**
+
+Jekyll-Blue is designed to use a scale of colors and only two font families, one Serif and one Sans-Serif. Go to ```_sass/_variables.scss``` to customise all of them. If you add/change fonts, remeber to edit ```_sass/_fonts.scss``` accordingly.
+
+#### Search results page**
+
+You can customise colors of result page in ```_includes/searchbox.html```
+
+#### Display title in pages
+
+This setting is related to pages, not posts.
+
+To display the title in page, set ```show_title``` to ```true``` or ```false``` in Liquid header.
+
+#### Using email obfuscation
+
+Make your email secure in 2 steps:
+
+1 - Go to ```_config.yml``` 
+
+2 - In *encryptedemail* type your email with **1 space** between each character (don't worry, it will be displayed correctly :smiley:). You're done!
+
+**Example**
+
+If your email is *myawesome@email.com*, then type *m y a w e s o m e @ e m a i l . c o m*.
+
+**Note**
+
+If you don't use *encryptedemail*, your plain email will be used (if in _config.yml).
+
+**Always-secure email**
+
+Use the code below wherever you want (even in markdown pages!) to secure your email.
+
+```html
+<div class="safe-email">
+    <a href="mailto:{{ site.encryptedemail }}" onclick="this.href=this.href.replace(/ /g,'')">{{ site.encryptedemail }}</a>
+</div>
+```
 
 ## Use your custom domain
 
