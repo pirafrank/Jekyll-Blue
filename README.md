@@ -8,6 +8,10 @@ All-in-one easy Jekyll solution.
 
 **Already downloaded? Check the [customisation](#customisation) section!**
 
+## Changelog
+
+Please check [release notes](https://github.com/pirafrank/Jekyll-Blue/releases).
+
 ## Features
 
 - All features of Jekyll-Now (credits to its author and its contributors)
@@ -20,7 +24,7 @@ All-in-one easy Jekyll solution.
   - Powered by duckduckgo, so you don't have to worry about being tracked
 - Automatic urls creation with redirect to enabled social networks
   - e.g. yourwebsite.com/twitter automatically redirects to your twitter account, yourwebsite.com/facebook to your facebook profile, and so on. Just you set up your social networks in _config.yml file
-- Choose whether to display or not page titles on a per-page basis.
+- Choose whether to display social icons in footer or just in home
 - Email obfuscation, so you don't get spam (yay!).
   - *BONUS:* your email is displayed correctly
   - ```mailto``` link works
@@ -28,9 +32,11 @@ All-in-one easy Jekyll solution.
   - ..and it's easy to use, too. Please read how to use it below.
 - Dedicated page for all blog posts
   - Sort posts by date or by category
+- Choose whether to display or not page titles on a per-page basis.
 - Reach all articles of the same category of the post you're reading with a single click
 - Evernote Web Clipper and Evernote Clearly support: your articles are displayed beautifully
 - Responsive support for videos (HTML5, embedded, YouTube and Vimeo)
+- 'Back to top' button in post pages
 - CSS class to support tablets and similar-sized screens
   - Use ```@include smallscreen``` in your Sass code
 - Sass variables overhaul: easily apply your favourite colors!
