@@ -17,12 +17,6 @@ A place to include any other types of information that you'd like to include abo
 
 Include here your portfolio.
 
-### Social
-
-<div class="social">
-  {% include svg-icons.html %}
-</div>
-
 ### Contact me
 
 <div class="safe-email">

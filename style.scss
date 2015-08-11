@@ -284,7 +284,8 @@ nav { // edit this to change navbar appearance
   }
 }
 
-.social { 
+.social {
+  text-align: center;
   @include mobile {
     padding-top: 10px;
     padding-bottom: 10px;

@@ -2,6 +2,12 @@
     <div class="wrapper-footer">
       <div class="container">
         <div class="line-separator"></div>
+        {% if site.footersocial %}
+          <br>
+          <div class="social">
+            {% include svg-icons.html %}
+          </div>
+        {% endif %}
         <footer>
           <b>Jekyll Blue</b><br>
           Made with love by <a href="http://fpira.com">Francesco Pira</a><br>

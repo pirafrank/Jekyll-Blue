@@ -17,11 +17,6 @@ timezone: Europe/Rome
 # Flags below are optional
 #
 
-# Home customisation
-home:
-  show_pinboard: true # set it to true to enable, false to disable right section in home
-  max_posts: 5 # max number of latest posts to show in home page
-
 # Theme Engine
 # To change site-wide fonts and colors, go to _sass/_variables anche change the hex values.
 
@@ -46,6 +41,15 @@ social-links:
 # For example: inbox@fpira.com -> inbox@nospampleasefpira.com
 # NOTE: Don't leave it empty or the link in About page won't work.
 encryptedemail: "i n b o x @ f p i r a . c o m"
+
+# Home customisation
+home:
+  show_pinboard: true # set it to true to enable, false to disable right section in home
+  max_posts: 5 # max number of latest posts to show in home page
+  show_social: false # Choose whether to display social link in mid of home page or not
+
+# Choose whether to display social links in footer or not
+footersocial: true
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account

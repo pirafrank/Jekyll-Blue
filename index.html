@@ -63,9 +63,11 @@
   </div>
 
   <div class="middle">
-    <div class="social">
-      {% include svg-icons.html %}
-    </div>
+    {% if site.home.show_social %}
+      <div class="social">
+        {% include svg-icons.html %}
+      </div>
+    {% endif %}
     <div class="content navLinks navLinks-alt">
         <a href="{{ site.baseurl }}/blog">BLOG</a>
         <a href="{{ site.baseurl }}/projects">PROJECTS</a>
