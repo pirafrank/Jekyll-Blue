@@ -44,7 +44,7 @@ $georgia: Georgia, serif;
   }
 }
 
-@mixin small {
+@mixin smallscreen {
   @media screen and (min-width: 641px) and (max-width: 991px){
     @content;
   }
