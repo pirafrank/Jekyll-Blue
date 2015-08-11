@@ -58,7 +58,7 @@ Already done? Skip to 'Make it yours'!
 
 If you stuble across error *Could not find a JavaScript runtime. (ExecJS::RuntimeUnavailable)*, solve it with ``` gem install therubyracer ```.
 
-### Make it yours
+### Use it
 
 1 - Fork this repo and rename it to yourgithubusername.github.io (yes, '.github.io' is included)
 
@@ -86,11 +86,11 @@ Check ```styles.scss``` in root folder.
 
 Jekyll-Blue is designed to use a scale of colors and only two font families, one Serif and one Sans-Serif. Go to ```_sass/_variables.scss``` to customise all of them. If you add/change fonts, remeber to edit ```_sass/_fonts.scss``` accordingly.
 
-#### Search results page**
+#### Search results page
 
 You can customise colors of result page in ```_includes/searchbox.html```
 
-#### Display title in pages
+#### Display page title
 
 This setting is related to pages, not posts.
 
@@ -141,7 +141,7 @@ You could buy a domain and setup a redirect or better setup a DNS redirect.
 
 #### Get free HTTPS
 
-**Please note that this solution is just palliative for the user.** Github Pages dosen't support HTTPS connection for custom domains. The furthest you can go is to use cloudflare as proxy and encrypt connection between the user and cloudflare. Thus Cloudflare to Github connection will remain not encrypted.
+**Please note that this solution is just palliative for your website visitors.** Github Pages dosen't support HTTPS connection for custom domains. The furthest you can go is to use cloudflare as proxy and encrypt connection between the user and cloudflare. Thus Cloudflare to Github connection will remain not encrypted.
 
 If you still want to have this facade security, follow the procedure below.
 
@@ -187,5 +187,6 @@ Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, c
 - Google Fonts
 - [labs.jonsuh.com/](http://labs.jonsuh.com/responsive-video-embed/) for responsive video support
 - [This guy](http://stackoverflow.com/users/27009/pornel) on StackOverflow for [email obfuscation code](http://stackoverflow.com/questions/163628/making-email-addresses-safe-from-bots-on-a-webpage)
+- Hardik Pandya for [his great article](http://hardik.org/blog/2013/stylising-duckduckgo-site-search/) about website search
 
 *cover.jpg* is a photo I took in 2014 and it's entitled "*Etna view from the Ancient Theatre of Taormina*". I license it under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/). Feel free to use it under the license terms. You can read the full license text [here](http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
