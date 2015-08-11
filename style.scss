@@ -234,6 +234,7 @@ img {
 nav { // edit this to change navbar appearance
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
+  margin-right: 20px;
   font-family: $defaultSansSerif; 
   font-size: 16px;
 
@@ -248,7 +249,7 @@ nav { // edit this to change navbar appearance
     margin-left: 20px;
     color: $white; // navbar links color
     text-align: right;
-    font-weight: 400;
+    font-weight: 300;
     //letter-spacing: 1px;
     &:hover, &:active {
       color: $white; // hover color for navbar links
