@@ -75,7 +75,7 @@
           <div>
             {% include searchbox.html %}
           </div>
-          <div class="newsSectionTitle">Latest from blog</div> <!-- news class removed reduce space from search box-->
+          <div class="sectionTitle">Latest from blog</div> <!-- news class removed reduce space from search box-->
           {% for post in site.posts limit: site.home.max_posts %}
             <div class="news newsEntry">
               <span class="news newsTitle">{{ post.title }}</span>
@@ -98,8 +98,8 @@
         </div>
         <div class="col span_2_of_5">
           {% if site.home.show_pinboard %}
-            <div class="newsSectionTitle">Pinboard</div>
-            <div class="newsEntry">
+            <div class="sectionTitle">Pinboard</div>
+            <div class="resEntry">
               <h4>Like Jekyll-Blue or wanna suggest something?</h4>
               <p>
                 Drop me a line:

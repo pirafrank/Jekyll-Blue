@@ -187,7 +187,7 @@ nav {                   // these settings overwrite the ones in style.scss
   }
 }
 
-.newsSectionTitle {
+.sectionTitle {
   font-size: 28px;
 }
 
@@ -200,6 +200,16 @@ nav {                   // these settings overwrite the ones in style.scss
     margin-right: 0em;
   }
 }
+
+.resEntry {
+  font-size: 16px;
+  padding-bottom: 20px;
+
+  @include mobile {
+    margin-right: 0em;
+  }
+}
+
 
 .newsTitle {
   font-size: 20px;
