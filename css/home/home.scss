@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+//
+// .top
+//
+
 .headText {
   margin: 0 auto;
   padding: 10px 20px 40px 25px;
@@ -83,59 +87,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
 
+//
+// mid section
+//
+
 .middle {
   text-align: center;
   background-color: $darkGray; //$darkBlue
   padding: 20px 0px 20px 0px;
-}
-
-.inner-container {
-  padding-top: 25px;
-
-  @include mobile {
-    padding-top: 15px;
-  }
-}
-
-.searchbox {           // these settings overwrite the ones in style.scss
-  max-width: 240px;
-  
-  @include mobile {
-    max-width: none;
-    margin: 0px;
-  }
-}
-
-.news {
-  padding-top: 1.2em;
-
-  @include mobile {
-    padding-top: 0.9em;
-  }
-}
-
-.newsSectionTitle {
-  font-size: 28px;
-}
-
-.newsEntry {
-  font-size: 16px;
-  padding-bottom: 20px;
-  margin-right: 3em;
-
-  @include mobile {
-    margin-right: 0em;
-  }
-}
-
-.newsTitle {
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 5px;
-}
-
-.newsDate {
-  font-size: 14px;
 }
 
 nav {                   // these settings overwrite the ones in style.scss
@@ -197,6 +156,59 @@ nav {                   // these settings overwrite the ones in style.scss
     display: block;
     padding: 10px 0px 5px 0px;
   }
+}
+
+//
+// news section
+//
+
+.inner-container {
+  padding-top: 25px;
+
+  @include mobile {
+    padding-top: 15px;
+  }
+}
+
+.searchbox {           // these settings overwrite the ones in style.scss
+  max-width: 240px;
+  
+  @include mobile {
+    max-width: none;
+    margin: 0px;
+  }
+}
+
+.news {
+  padding-top: 1.2em;
+
+  @include mobile {
+    padding-top: 0.9em;
+  }
+}
+
+.newsSectionTitle {
+  font-size: 28px;
+}
+
+.newsEntry {
+  font-size: 16px;
+  padding-bottom: 20px;
+  margin-right: 3em;
+
+  @include mobile {
+    margin-right: 0em;
+  }
+}
+
+.newsTitle {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.newsDate {
+  font-size: 14px;
 }
 
 
