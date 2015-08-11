@@ -97,6 +97,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.searchbox {           // these settings overwrite the ones in style.scss
+  max-width: 240px;
+  
+  @include mobile {
+    max-width: none;
+    margin: 0px;
+  }
+}
 
 .news {
   padding-top: 1.2em;

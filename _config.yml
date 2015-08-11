@@ -20,6 +20,9 @@ timezone: Europe/Rome
 # Theme Engine
 # To change site-wide fonts and colors, go to _sass/_variables anche change the hex values.
 
+# Writing anything to enable search, leave it blank to disable
+embedsearch: true
+
 # Includes a social icon in social divs for each username you enter
 social-links:
   dribbble:

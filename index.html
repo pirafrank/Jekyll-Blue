@@ -77,8 +77,12 @@
 
   <div class="container">
     <div class="section group">
-      <div class="col span_3_of_5">
-        <div class="news newsSectionTitle">Latest from blog</div>
+      <div class="inner-container">
+        <div class="col span_3_of_5">
+          <div>
+            {% include searchbox.html %}
+          </div>
+          <div class="newsSectionTitle">Latest from blog</div> <!-- news class removed reduce space from search box-->
           {% for post in site.posts limit: site.home.max_posts %}
             <div class="news newsEntry">
               <span class="news newsTitle">{{ post.title }}</span>
@@ -98,25 +102,28 @@
               {% endif %}
             </div>            
           {% endfor %}
-      </div>
-      <div class="col span_2_of_5">
-        {% if site.home.show_pinboard %}
-          <div class="news newsSectionTitle">Pinboard</div>
-          <div class="newsEntry">
-            <h4>Like Jekyll-Blue or wanna suggest something?</h4>
-            <p>
-              Drop me a line: <a href="mailto:inbox@fpira.com">inbox@fpira.com</a>
-            </p>
-            <br>
-            <h4>Useful Links</h4>
-            <p>
-              <a href="#">My Important Link</a><br>
-              <a href="#">Another Important Link</a><br>
-              <a href="#">Dummy pinned link</a><br>
-              <a href="#">Check this bla bla resource, too</a><br>
-            </p>
-          </div>
-        {% endif %}
+        </div>
+        <div class="col span_2_of_5">
+          {% if site.home.show_pinboard %}
+            <div class="newsSectionTitle">Pinboard</div>
+            <div class="newsEntry">
+              <h4>Like Jekyll-Blue or wanna suggest something?</h4>
+              <p>
+                Drop me a line:
+                <br>
+                <span class="safe-email"><a href="mailto:{{ site.encryptedemail }}" onclick="this.href=this.href.replace(/ /g,'')">{{ site.encryptedemail }}</a></span>
+              </p>
+              <br>
+              <h4>Useful Links</h4>
+              <p>
+                <a href="#">My Important Link</a><br>
+                <a href="#">Another Important Link</a><br>
+                <a href="#">Dummy pinned link</a><br>
+                <a href="#">Check this bla bla resource, too</a><br>
+              </p>
+            </div>
+          {% endif %}
+        </div>
       </div>
     </div>
   </div>
