@@ -19,9 +19,13 @@ Include here your portfolio.
 
 ### Contact me
 
+{% if site.encryptedemail %}
 <div class="safe-email">
     <a href="mailto:{{ site.encryptedemail }}" onclick="this.href=this.href.replace(/ /g,'')">{{ site.encryptedemail }}</a>
 </div>
+{% elsif site.social-links.email %}
+<a href="mailto:{{ site.social-links.email }}">{{ site.social-links.email }}</a>
+{% endif %}
 
 ### Credits
 
