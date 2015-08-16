@@ -191,6 +191,7 @@ Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, c
 
 - [Jekyll Now](https://github.com/barryclark/jekyll-now), its contributors and third-part projects who made it possible
 - Google Fonts
+- [responsivegridsystem](http://www.responsivegridsystem.com/) for the CSS grid code
 - [labs.jonsuh.com/](http://labs.jonsuh.com/responsive-video-embed/) for responsive video support
 - [This guy](http://stackoverflow.com/users/27009/pornel) on StackOverflow for [email obfuscation code](http://stackoverflow.com/questions/163628/making-email-addresses-safe-from-bots-on-a-webpage)
 - Hardik Pandya for [his great article](http://hardik.org/blog/2013/stylising-duckduckgo-site-search/) about website search
