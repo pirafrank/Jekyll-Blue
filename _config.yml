@@ -4,6 +4,7 @@
 
 # Name of your site (displayed in the header)
 name: John Doe
+author: "John Doe"
 
 # Short bio or description (displayed in the header)
 description: "Web Developer passionate about photography"
