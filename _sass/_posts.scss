@@ -39,12 +39,15 @@
     @include mobile {
       line-height: 1.4;
     }
+
+    @include retina {
+      font-weight: 400;
+    }
   }
 
   .post-title { // edit appearance of post title
-    h2 {
-      font-size: 26px;
-      font-weight: bold;
+    h1 {
+      font-size: 36px;
       font-family: $defaultSerif;
       letter-spacing: -0.05em;
       color: $darkerGray;

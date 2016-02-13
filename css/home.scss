@@ -213,9 +213,17 @@ nav {                   // these settings overwrite the ones in style.scss
 
 .newsTitle {
   font-family: $defaultSansSerif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
   padding-bottom: 5px;
+
+  @include mobile {
+    font-size: 20px;
+  }
+
+  @include retina {
+    font-weight: 400;
+  }
 
   a {
     color: inherit;
