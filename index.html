@@ -80,7 +80,7 @@
           <div class="sectionTitle">Latest from blog</div> <!-- news class removed reduce space from search box-->
           {% for post in site.posts limit: site.home.max_posts %}
             <div class="news newsEntry">
-              <span class="news newsTitle">{{ post.title }}</span>
+              <span class="news newsTitle"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
               <div class="news newsDate">{{ post.date | date: "%d %B %Y" }}</div>
               {% if site.home.show_excerpt %}
                   {% if post.subtitle %}
