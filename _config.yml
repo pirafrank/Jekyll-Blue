@@ -50,6 +50,7 @@ encryptedemail: "i n b o x @ f p i r a . c o m"
 home:
   show_pinboard: true # set it to true to enable, false to disable right section in home
   max_posts: 3 # max number of latest posts to show in home page
+  show_excerpt: true # choose whether to show or not excerpt of latest blog posts
   show_social: false # choose whether to display social link in mid of home page or not
   show_search: true # choose whether to display search in home or not
 

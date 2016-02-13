@@ -85,18 +85,20 @@
             <div class="news newsEntry">
               <span class="news newsTitle">{{ post.title }}</span>
               <div class="news newsDate">{{ post.date | date: "%d %B %Y" }}</div>
-              {% if post.subtitle %}
-                <br>
-                <div>
-                  {{ post.subtitle | truncatehtml | truncatewords: 20 }}
-                  <br><br>
-                  <span class="news newsDate"><a href="{{ post.url }}">Read more...</a></span>
-                </div>
-              {% else %}
-                <div>
-                  {{ post.content | truncatehtml | truncatewords: 20 }}
-                  <span class="news newsDate"><a href="{{ post.url }}">Read more...</a></span>
-                </div>
+              {% if site.home.show_excerpt %}
+                  {% if post.subtitle %}
+                    <br>
+                    <div>
+                      {{ post.subtitle | truncatehtml | truncatewords: 20 }}
+                      <br><br>
+                      <span class="news newsDate"><a href="{{ post.url }}">Read more...</a></span>
+                    </div>
+                  {% else %}
+                    <div>
+                      {{ post.content | truncatehtml | truncatewords: 20 }}
+                      <span class="news newsDate"><a href="{{ post.url }}">Read more...</a></span>
+                    </div>
+                  {% endif %}
               {% endif %}
             </div>            
           {% endfor %}
