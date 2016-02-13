@@ -31,14 +31,23 @@ social-links:
   facebook: john-doe
   flickr: john-doe
   github: pirafrank
-  instagram:
-  linkedin: fpira
-  pinterest: john-doe
-  rss: stuff # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: pirafrank
-  stackoverflow: users/12345/john-doe # your stackoverflow profile, e.g. "users/12345/john-doe"
-  youtube: john-doe # channel/<your_long_string> or user/<user-name>
+  goodreads: johndoe # your goodreads profile, e.g. https://www.goodreads.com/johndoe
   googleplus: +johndoe # e.g. https://plus.google.com/+johndoe
+  instagram:
+  keybase: # your keybase username
+  lastfm: 
+  linkedin: fpira 
+  medium: pirafrank # your medium profile, e.g. https://medium.com/@johndoe
+  pinterest: john-doe
+  pocket: pirafrank # your pocket profiles, e.g. https://getpocket.com/@johndoe
+  reddit: johndoe
+  rss: stuff # just type anything here for a working RSS icon, make sure you set the "url" below!
+  skype: johndoe
+  soundcloud: johndoe
+  stackoverflow: users/12345/john-doe # your stackoverflow profile, e.g. "users/12345/john-doe"
+  tumblr: johndoe # example http://johndoe.tumblr.com. Use this link even with custom domains.
+  twitter: pirafrank
+  youtube: john-doe # channel/<your_long_string> or user/<user-name>
 
 # Type your email with **1 space** between each character.
 # Don't worry, it will be displayed correctly.
