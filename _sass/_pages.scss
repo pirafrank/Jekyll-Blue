@@ -37,7 +37,7 @@
 .line-separator {
   height: 1px;
   //background: $darkGray;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $lightestGray;
 }
 
 .back-to-top {
@@ -45,7 +45,7 @@
   bottom: 2%;
   right: 2%;
   background: $white;
-  border: 1px solid $lightGray;
+  border: 1px solid $lightestGray;
   border-radius: 5px;
   padding: 3px 9px 3px 9px;
   
