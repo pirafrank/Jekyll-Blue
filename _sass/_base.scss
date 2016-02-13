@@ -116,6 +116,28 @@ img {
   max-width: 100%; // makes images responsive
 }
 
+@media mobile {
+  table {
+    overflow-x: auto;
+    display: block;
+  }
+}
+
+thead > tr > th {
+  background-color: $lighterGray;
+  font-weight: bold;
+  //color: $white;
+}
+
+th, td {
+  padding: 0.4em 1.4em 0.4em 1.4em;
+  text-align: left;
+}
+
+tbody > tr:nth-child(even) > td { 
+  background-color: $lightestGray;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
