@@ -13,12 +13,11 @@
 
   <body>
 
-    <div class="big_container">
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
 
-            <div class="site-info">
+            <div id="top" class="site-info">
               <h3 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h3>
               <p class="site-description">{{ site.description }}</p>
             </div>
@@ -29,7 +28,8 @@
         </div>
       </div>
 
-      <div id="main" role="main" class="container">
+    <div class="big_container">
+      <div id="main" role="main" class="container reading_container">
         {{ content }}
       </div>
     </div>
