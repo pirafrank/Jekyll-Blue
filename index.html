@@ -71,10 +71,15 @@
   <div class="container">
     <div class="section group">
       <div class="inner-container">
-        <div class="col span_3_of_5">
-          <div>
+        <div class="col span_7_of_12">
+          {% if site.home.show_search %}
             {% include searchbox.html %}
-          </div>
+          {% endif %}
+          {% if site.home.show_pinboard %}
+            <div class="desktop-hidden smallscreen-hidden">
+              {% include pinboard.html %}
+            </div>
+          {% endif %}
           <div class="sectionTitle">Latest from blog</div> <!-- news class removed reduce space from search box-->
           {% for post in site.posts limit: site.home.max_posts %}
             <div class="news newsEntry">
@@ -96,9 +101,11 @@
             </div>            
           {% endfor %}
         </div>
-        <div class="col span_2_of_5">
+        <div class="col span_5_of_12">
           {% if site.home.show_pinboard %}
+            <div class="mobile-hidden">
               {% include pinboard.html %}
+            </div>
           {% endif %}
         </div>
       </div>
