@@ -149,3 +149,27 @@ nav { // edit this to change navbar appearance
     }
   }
 }
+
+.corner-fixed {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  
+  @include mobile {
+    right: 4%;
+  }
+}
+
+.corner-btn {
+  background: $white;
+  border: 1px solid $lightestGray;
+  border-radius: 5px;
+  padding: 3px 9px 3px 9px;
+  
+  a {
+    font-size: 14px;
+    font-family: $defaultSansSerif;
+    //text-transform: uppercase;
+    color: $gray;
+  }
+}
