@@ -98,23 +98,7 @@
         </div>
         <div class="col span_2_of_5">
           {% if site.home.show_pinboard %}
-            <div class="sectionTitle">Pinboard</div>
-            <div class="resEntry">
-              <h4>Like Jekyll-Blue or wanna suggest something?</h4>
-              <p>
-                Drop me a line:
-                <br>
-                <span class="safe-email"><a href="mailto:{{ site.encryptedemail }}" onclick="this.href=this.href.replace(/ /g,'')">{{ site.encryptedemail }}</a></span>
-              </p>
-              <br>
-              <h4>Useful Links</h4>
-              <p>
-                <a href="#">My Important Link</a><br>
-                <a href="#">Another Important Link</a><br>
-                <a href="#">Dummy pinned link</a><br>
-                <a href="#">Check this bla bla resource, too</a><br>
-              </p>
-            </div>
+              {% include pinboard.html %}
           {% endif %}
         </div>
       </div>
