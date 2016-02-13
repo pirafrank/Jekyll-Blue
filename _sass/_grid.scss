@@ -1,0 +1,170 @@
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 960px; // was 820px
+}
+
+.big_container {
+  min-height: 500px;
+}
+
+.reading_container {
+  max-width: 45em; // 45em for optimal reading
+}
+
+//
+// Responsive grid system (12 columns)
+//
+
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+
+  &:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+}
+
+.group {
+  &:before,&:after {
+    content:"";
+    display:table;
+  }
+  
+  &:after {
+    clear:both;
+  }
+
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.col { 
+  @include mobile {
+    margin: 1% 0 1% 0%;
+  }
+}
+
+.span_12_of_12 {
+  width: 100%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_11_of_12 {
+  width: 91.53%;
+  @include mobile {
+    width: 100%;
+  }
+}
+.span_10_of_12 {
+  width: 83.06%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_9_of_12 {
+  width: 74.6%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_8_of_12 {
+  width: 66.13%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_7_of_12 {
+  width: 57.66%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_6_of_12 {
+  width: 49.2%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_5_of_12 {
+  width: 40.73%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_4_of_12 {
+  width: 32.26%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_3_of_12 {
+  width: 23.8%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_2_of_12 {
+  width: 15.33%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+.span_1_of_12 {
+  width: 6.866%;
+  @include mobile {
+    width: 100%;
+  }
+}
+
+//
+// Useful Bootstrap classes
+//
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after {
+  clear: both;
+}
+
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
