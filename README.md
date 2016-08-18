@@ -16,6 +16,7 @@ Jekyll Blue supports Github Pages. Read the [official doc](https://help.github.c
 
 All features of Jekyll-Now (credits to its author and its contributors), plus:
 
+- All features without using plugins: 100% compatible with GitHub hosting!
 - Completely redesigned home page
 - Full-width navbar
 - Website search
@@ -42,7 +43,7 @@ Want to learn more? [See the wiki](https://github.com/pirafrank/Jekyll-Blue/wiki
 
 ## Contribute
 
-Got a great feature it's missing? 
+Got a great feature it's missing?
 
 Fork this repo, clone, code the feature and send me a pull-request!
 
@@ -71,7 +72,7 @@ Jekyll Blue is a fork of Jekyll Now. Jekyll Now is released under MIT license, c
 - [Jekyll Now](https://github.com/barryclark/jekyll-now), its contributors and third-part projects who made it possible
 - Google Fonts
 - [responsivegridsystem](http://www.responsivegridsystem.com/) for the CSS grid code
-- [labs.jonsuh.com/](http://labs.jonsuh.com/responsive-video-embed/) for responsive video support
+- [jonsuh.com/](https://jonsuh.com/blog/responsive-youtube-vimeo-embed-and-html5-video-with-css/) for responsive video support
 - [This guy](http://stackoverflow.com/users/27009/pornel) on StackOverflow for [email obfuscation code](http://stackoverflow.com/questions/163628/making-email-addresses-safe-from-bots-on-a-webpage)
 - Hardik Pandya for [his great article](http://hardik.org/blog/2013/stylising-duckduckgo-site-search/) about website search
 
